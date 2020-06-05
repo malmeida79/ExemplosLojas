@@ -1,0 +1,84 @@
+Com instalar:
+
+SENHA PARA ENTRAR NO ADMINISTRADOR:
+NOME- admin
+senha- admin
+
+OBS: mudem pelo menos a senha, porque será com senha que vc vai administrar todo o atendimento.
+
+
+Editar o arquivo db.asp nele você encontrara o caminho do Banco de Dados, para evitar problemas futuros
+renomei seu banco de dados po outro nome e na linha + OU - 8
+ESTÁ ASSIM:
+Conexao.Open "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" & Server.MapPath(".") & "\dbs\atend.mdb"
+E SO MUDAR O NOME DO BANCO.
+
+*************************************************************************************
+Editar o arquivo MONITOR.asp
+
+Nele vc deve editar a linha + ou - 8 deve estar assim:
+<iframe name="monitor" src="http://www.seuendereco.com.br/atendimento/default.asp" style="width:100%; height:100%; border:1px inset" frameborder="0"></iframe></td>
+NESTE CASO VOCÊ DEVE COLOCAR O CAMINHO QUE FICARA SEU ATENDIMENTO NA INTERNET PARA O 
+ARQUIVO EXECUTAVEL FUNCIONAR CORRETAMENTE 
+OBS: SERÁ O MESMO CAMINHO http://www.seuendereco.com.br/atendimento NO ARQUIVO EXECUTAVEL PARA FICAR 
+DISPONIVEL NA BANDEJA DO WINDOWS.
+
+*******************************************************************************
+
+Editar o arquivo mysChatOff.asp:
+Neste vc deve configurar o componente que será usado em seu servidor:
+Neste foi que houve a maior mudança para funcionar com varios componentes assim ira funcionar em outro servidor
+que não possua CDONTS.
+
+* Configurar seu servidor de e-mail 
+OBS: se for ASPEmail colocar mail.seuendereço.com.br, 
+se for CDONTS smtp.seuendereço.com.br , isto vc devera encontar na 
++ou- an linha 31
+* Não esqueça de colocar seu e-mail para onde vai todas as mensagens quando atendimento estiver offline + ou - na 
+linha 25.
+
+*****************************************************************************
+
+No arquivo executavel para configurar vc deve utilizar o caminho onde encontra-se a pasta:
+Exemplo
+http://www.seuendereco.com.br/atendimento/
+OBS: neste arquivo devera entrar como operador para funcionar corretamente e a imagem do atendimento
+mudar em sua pagina assim recebera o sinal sonoro .
+
+************************************************************************************
+
+Para funcionar na area administrativa da loja o atendimento e so subistituir o arquivo admin_utilitarios.asp
+
+OBS: Por padrão deixei o caminho  "http://www.seuendereco.com.br/atendimento/default.asp"   se por algun a caso
+voce mudar esta pasta devera editar o arquivo admin_utilitarios e colocar o caminho + ou - na linha 18 deve estar 
+assim:
+strTextoHtml = strTextoHtml & "<br><br><center><strong><FONT face=tahoma color=#000000 style=font-size:11px>Abra o link abaixo para iniciar o seu atendimento on-line<P><a href=""atendimento/default.asp"" target=""_blank"">Iniciar atendimento</a></strong></center>"
+veja na linha o caminho padrão 'atendimento/default.asp" basta apenas colocar a pasta onde vc vai deixar o atendimento.
+
+***********************************************************************************
+
+Na pasta Lojas  que esta  junto com os arquivos vc tera uma base de todas as nossas versões de como instalar a iframe para rodar o atendimento 
+Mysupport sem problema algun.
+
+
+********************************************************************
+
+OBS: O arquivo vsmonitor.exe  que esta fora do diretorio que esta em anexo não é necessario subir ele para internet, este arquivo deve ficar em lugar de fácil acesso 
+na maquina para entrar no atendimento.
+
+*************************************************************************
+
+Bem pessoal tentei de uma forma bem simples de entedimento para todos aqueles profissionais ou não usufruir deste 
+atendimento que é FREE .
+
+Obrigado a todos aqueles que de uma forma ou outra ajudaram .
+
+Dubairro
+09.04.2007
+
+
+ 
+
+
+
+ 

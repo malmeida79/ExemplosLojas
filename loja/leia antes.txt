@@ -1,0 +1,17 @@
+Manter na pagina config.asp a seguinte informação que se encontra na linha 229.
+
+'## Dias para entrega dos pedidos
+Dias_para_entrega = 28
+
+A página linguagem.asp deve ser mantida na pasta linguagens(portuguesBR).
+
+Estou usando sem maiores problemas, tem funcionando que é uma beleza.
+
+
+Estou enviando também pagina com três produto por coluna (Enviado pelo Douglas).
+
+Se tiver alguma duvida?
+
+jusivansjc@yahoo.com.br
+
+Se quiser visualizar como ficou: www.megapaper.com.br/loja

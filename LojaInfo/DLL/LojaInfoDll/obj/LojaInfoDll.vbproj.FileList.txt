@@ -1,0 +1,15 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\LojaInfoDll.Resources.resources
+obj\Debug\LojaInfoDll.vbproj.GenerateResource.Cache
+bin\Debug\LojaInfoDll.dll
+bin\Debug\LojaInfoDll.pdb
+bin\Debug\LojaInfoDll.xml
+obj\Debug\LojaInfoDll.dll
+obj\Debug\LojaInfoDll.xml
+obj\Debug\LojaInfoDll.pdb
+bin\Debug\Acesso.vb
+bin\Debug\Conexao.vb
+bin\Debug\Drop.vb
+bin\Debug\Endereco.vb
+bin\Debug\Geral.vb
+bin\Debug\valida.vb

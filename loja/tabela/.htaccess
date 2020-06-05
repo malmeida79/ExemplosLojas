@@ -1,0 +1,5 @@
+AuthName IIS PASSWORD - Diretorio Seguro
+AuthUserFile D:\Domains\compuwaretecno.com.br\secure\.htpasswd
+AuthGroupFile D:\Domains\compuwaretecno.com.br\secure\.htgroups
+Require group
+Require user
